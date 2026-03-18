@@ -29,7 +29,7 @@
 /* For Mobiles 576px and below */
 /* for tabs 577px to 768px */
 /* for small screens 769px to 992px */
-/* for mediuma and normal screens 993 px to 1200px */
+/* for medium and normal screens 993 px to 1200px */
 /* for mobiles */
 @media (max-width: 576px) {
   .flexContainer {
