@@ -1,0 +1,73 @@
+/* Universal Slector (*) */
+h1 {
+  /* padding: 10px; */
+  /* padding: 10px 20px; */
+  padding: 10px 20px 30px 40px;
+  margin: 10px;
+  border: 2px solid red;
+}
+* {
+  /* color: blue; */
+}
+
+/* Tag Selector */
+h1 {
+  color: red;
+}
+
+/* class selctor (.) */
+
+.a {
+  color: green;
+}
+
+/* Id Selector (#)*/
+#b {
+  color: purple;
+}
+
+h3 {
+  border: 1px solid black;
+}
+
+span {
+  border: 2px solid red;
+}
+
+/* Group Selector , */
+h1,
+h2,
+h3 {
+  color: orange;
+}
+
+/* Descendant Selctor  */
+div p {
+  color: blue;
+  border: 1px solid red;
+}
+
+/* Child selector > */
+div > p {
+  color: red;
+  font-weight: 700;
+  border: 2px solid yellow;
+}
+
+.d {
+}
+
+/* pseudo classes : */
+li:nth-child(2) {
+  color: red;
+  font-size: 32px;
+}
+
+/* pseudo Elements :: */
+#s::after {
+  content: "Hello fromm Css";
+}
+#s::first-letter {
+  font-size: 32px;
+  color: red;
+}

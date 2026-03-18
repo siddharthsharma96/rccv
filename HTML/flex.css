@@ -1,0 +1,51 @@
+.flexContainer {
+  border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-evenly;
+  align-items: center; */
+  height: 89vh;
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap;
+  align-content: flex-start; */
+}
+
+.flexItem {
+  background-color: red;
+  color: yellow;
+  font-size: 28px;
+  height: 10vh;
+  width: 100px;
+}
+
+.flexItem:nth-child(2) {
+  order: 1;
+  align-self: flex-end;
+}
+
+/* Media Queries */
+/* For Mobiles 576px and below */
+/* for tabs 577px to 768px */
+/* for small screens 769px to 992px */
+/* for mediuma and normal screens 993 px to 1200px */
+/* for mobiles */
+@media (max-width: 576px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexItem {
+    width: 100%;
+  }
+}
+
+/* for tabs */
+@media (min-width: 577px) and (max-width: 768px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexItem {
+    background-color: rgb(34, 37, 30);
+  }
+}

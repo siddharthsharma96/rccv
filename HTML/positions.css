@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.conatiner {
+  /* width: 40%; */
+  /* width: 100px; */
+  width: 40vw;
+  height: 80vh;
+  border: 3px solid red;
+}
+p {
+  background-color: yellow;
+  color: red;
+  font-size: 32px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 50%;
+  right: -70px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
