@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: Yellow;
+  color: red;
+  font-weight: 700;
+  width: 30%;
+  border: 2px solid;
+  height: 40% !important;
+}
+button {
+  font-size: 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+.ButtonContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ButtonContainer button:nth-child(1) {
+  background-color: green;
+}
+.ButtonContainer button:nth-child(2) {
+  background-color: red;
+}
